@@ -3,18 +3,18 @@ def parse_input(file_name):
     return lines
 
 
-def part1(rules, updates):
+def part1(input):
     result = 0
     return result
 
 
-def part2(rules, updates, wrong_indices):
+def part2(input):
     result = 0
     return result
 
 
 def run():
-    inp1, inp2 = parse_input('day/test.txt')
+    inp = parse_input('day/test.txt')
 
-    print("Part 1: ", part1(inp1, inp2))
-    print("Part 2: ", part2(inp1, inp2))
+    print("Part 1: ", part1(inp))
+    print("Part 2: ", part2(inp))
